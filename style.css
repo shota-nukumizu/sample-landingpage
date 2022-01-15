@@ -196,10 +196,9 @@ header
     pointer-events: none;
 }
 
-.slier .slides.active
+.slider .slides.active
 {
     opacity: 1;
-    top: 50%;
 }
 
 .slider .slides h2
