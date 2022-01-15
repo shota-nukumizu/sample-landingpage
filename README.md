@@ -7,3 +7,7 @@ HTML/CSS, JavaScriptで制作した非常に簡単な商品紹介ページ。バ
 # 完成デモ
 
 ![Demo](demo.png)
+
+# 補足
+
+ちなみにソーシャルアカウントのアイコンは[ionicons](https://ionic.io/ionicons)から採用。意外と使いやすかった。
