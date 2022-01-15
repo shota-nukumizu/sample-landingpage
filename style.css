@@ -120,3 +120,8 @@ header
 {
     letter-spacing: 4px;
 }
+
+.bike
+{
+    max-width: 80%;
+}
