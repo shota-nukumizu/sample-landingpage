@@ -159,3 +159,23 @@ header
 {
     color: var(--red);
 }
+
+.dots
+{
+    display: flex;
+}
+
+.dots .dot
+{
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
+.dots .dot.active
+{
+    background: var(--white);
+}
