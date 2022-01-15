@@ -179,3 +179,43 @@ header
 {
     background: var(--white);
 }
+
+.slider .slides
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    transition: 0.25s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.slier .slides.active
+{
+    opacity: 1;
+}
+
+.slider .slides h2
+{
+    color: var(--white);
+    font-size: 3em;
+}
+
+.slider .slides h2:last-child
+{
+    text-align: end;
+}
+
+.slider .slides h2 span
+{
+    color: var(--red);
+    font-size: 0.5em;
+    font-weight: 400;
+    font-style: italic;
+}
